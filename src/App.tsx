@@ -23,7 +23,7 @@ const App = () => {
         <div className="container d-flex justify-content-center align-items-center p-3">
             <Button/>
         </div>
-        <div className="container d-flex justify-content-sm-between align-items-center p-3">
+        <div className="container  p-3">
             {showAlert && (
                 <Alert
                     type="warning"
